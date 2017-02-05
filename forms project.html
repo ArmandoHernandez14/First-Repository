@@ -5,10 +5,38 @@
     <h1>Register</h1>
   </head>
   <body>
-   <forms>
-     <label for="First Name:">First Name:</label>
-    <input id="First Name" name="First Name" type="Text" placeholder:"John">
+   <forms action="http://www.Google.com" method="GET">
+     <label for="First Name">First Name:</label>
+     <input id="First Name" name="First Name" type="text" placeholder="John" required>
+     <label for="Last Name">Last Name:</label>
+     <input id="Last Name" name="Last Name"type="password" placeholder="Smith" required>
 
+     <label for="radio">Male </label>
+       <input type="radio">
+     <label>Female <input type="radio"></label>
+     <label>Other <input type="radio"></label>
+     <label>Email: <input name="your email" type="email" placeholder="your email" required></label>
+     <label>Password: <input type="password" placeholder="your password" required></label>
+
+     <label>Birthday: <select>
+     <option>Month</option>
+     <option>September</option>
+     <option>October</option>
+     </select>
+     <select>
+     <option>Day</option>
+     <option>23</option>
+     <option>19</option>
+     </select>
+     <select>
+      <option>Year</option>
+      <option>2002</option>
+    </label>
+     </select>
+     <label>I agree to the terms and conditions <input type="checkbox"></label>
+     <button>Submit</button>
    </forms>
+
+
   </body>
 </html>

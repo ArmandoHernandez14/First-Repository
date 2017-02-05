@@ -2,26 +2,22 @@
 <html>
   <head>
     <title>forms project</title>
-    <style type="text/css">
-      body{
-        background: #afa0a0
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="baked.css">
     <h1>Register</h1>
   </head>
   <body>
-   <forms action="http://www.Google.com" method="GET">
+   <forms>
      <label for="First Name">First Name:</label>
      <input id="First Name" name="First Name" type="text" placeholder="John" required>
      <label for="Last Name">Last Name:</label>
      <input id="Last Name" name="Last Name"type="password" placeholder="Smith" required>
 
     <p> <label for="radio">Male </label>
-       <input type="radio">
-     <label>Female <input type="radio"></label>
-     <label>Other <input type="radio"></label></p>
+       <input name="Gender" type="radio" required>
+     <label>Female <input name="Gender" type="radio" required></label>
+     <label>Other <input name="Gender" type="radio" required></label></p>
     <p> <label>Email: <input name="your email" type="email" placeholder="your email" required></label>
-     <label>Password: <input type="password" placeholder="your password" required></label></p>
+     <label>Password: <input name="your password" type="password" placeholder="your password" required></label></p>
 
     <p> <label>Birthday: <select>
      <option>Month</option>

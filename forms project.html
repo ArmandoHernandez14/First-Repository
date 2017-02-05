@@ -2,6 +2,11 @@
 <html>
   <head>
     <title>forms project</title>
+    <style type="text/css">
+      body{
+        background: #afa0a0
+      }
+    </style>
     <h1>Register</h1>
   </head>
   <body>
@@ -11,14 +16,14 @@
      <label for="Last Name">Last Name:</label>
      <input id="Last Name" name="Last Name"type="password" placeholder="Smith" required>
 
-     <label for="radio">Male </label>
+    <p> <label for="radio">Male </label>
        <input type="radio">
      <label>Female <input type="radio"></label>
-     <label>Other <input type="radio"></label>
-     <label>Email: <input name="your email" type="email" placeholder="your email" required></label>
-     <label>Password: <input type="password" placeholder="your password" required></label>
+     <label>Other <input type="radio"></label></p>
+    <p> <label>Email: <input name="your email" type="email" placeholder="your email" required></label>
+     <label>Password: <input type="password" placeholder="your password" required></label></p>
 
-     <label>Birthday: <select>
+    <p> <label>Birthday: <select>
      <option>Month</option>
      <option>September</option>
      <option>October</option>
@@ -32,8 +37,8 @@
       <option>Year</option>
       <option>2002</option>
     </label>
-     </select>
-     <label>I agree to the terms and conditions <input type="checkbox"></label>
+  </select></p>
+     <p><label>I agree to the terms and conditions <input type="checkbox"></label></p>
      <button>Submit</button>
    </forms>
 

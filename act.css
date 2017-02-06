@@ -1,14 +1,14 @@
 h1{
-  color: #660066
+  color: rgba(240,0,200,1);
 /*  border-color: purple;
   border-width: 5px;
   border-style: solid;*/
+  border:8px dashed purple;
 
-  border: 8px dashed purple;
 }
 
 h4{
-  color:purple
+  background-color: purple;
 }
 
 /*width
@@ -17,13 +17,14 @@ style*/
 
 
 body{
-  background: pink;
+  background: red;
 /*  background: url(http://www.ascensionnow.co.uk/uploads/6/8/0/0/6800211/1301522205.jpg);
-  background-repeat: no-repeat;
+  If it's to small and it's repeating use this code background-repeat: no-repeat;
   background-size: cover;*/
 }
 
  li{
    color:purple
  }
-<!-- you learned rgb,#, rgba -->
+<!-- you learned rgb(Red,Green,Blue),#, rgba(Red,Green,Blue,Alpha) -->
+<!-- use border: width style color;

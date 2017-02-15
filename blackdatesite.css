@@ -1,0 +1,9 @@
+#content {
+  text-align: center;
+  padding-top: 25%;
+}
+body{
+  background-image: url(https://i.ytimg.com/vi/XYjqBqrZVTY/maxresdefault.jpg);
+  background-size: cover;
+  font-family: Lato;
+}

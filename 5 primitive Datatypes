@@ -1,0 +1,75 @@
+//Numbers
+4
+9.3
+-10
+
+//Strings
+"Hello World"
+"43"
+
+//Booleans
+true
+false
+
+//null and undefined
+null
+undefined
+
+//Numbers
+4
+9.3
+-10
+
+//We can do some math
+
+4+ 10       //14
+1/5         //0.2
+
+//Modulo - remainder operator
+
+10 % 3     //1
+24 % 2     //0
+15 % 2     //4
+
+       Strings
+//Single or Double quotes OK
+"hello world"
+'hello world'
+
+//Concatenation
+"clarlie" + "brown"  //"clarliebrown"
+
+//Escape Characters start with "\"
+"Singin \"Do wah diddy, diddy, dum diddy do\" "
+"This is a backslash: \\"
+
+//Strings have a length property
+"hello world".length  //11
+
+//Access individual characters using [] and an index
+"hello"[0]  //"h" this work's cause the number
+you put in it counts the work till the number
+you put it and tell's you the letter
+"hello"[4]  //"o"
+
+
+        Excercise:
+//1.
+100 % 3
+answer: 1, First you want to divide 3 into 100,
+which your gonna get 33, then you multiply 33 by 3
+,Now you get 99 , then you subtract 99 by 100 and you get 1
+and that's how you do it.
+
+
+//2.
+("blah" + "blah") [6]
+answer: H, It's H because the [6] is telling you
+what's the sixth variable.
+
+//3.
+"hello" .length % "hi\\" .length
+answer: 9 for the first one and 8 for the
+second one and if added together it's 17 background-position
+the way I got those numbers where because
+.length is saying how much variables are there.

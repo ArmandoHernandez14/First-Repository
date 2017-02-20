@@ -1,0 +1,27 @@
+3 built in methods:
+//alert
+//prompt
+//console.log
+
+
+put 2 // then anything else after that and those
+are javascript comments
+
+
+Also put clear() and that will clear everything
+in the console. Clear itself is called a method.
+
+ When you use alert put "" marks inside of the
+ (). Ex: alert(""); like this Armando.
+
+ console.log all it does is just whatever you put
+ near it like this for examples console.log("hello")
+ it will just print whatever is in the brackets.
+
+ Prompt is very useful in the beginning cause it let's
+ us get info from a user or feedback. Ex: prompt("what is you name?")
+
+The way to store the prompt answer you simply
+use var userName = prompt("What is your name?");
+Then when you try retriving the info try using
+what you set the var to in this case it's userName. 

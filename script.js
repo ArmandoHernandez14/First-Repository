@@ -1,1 +1,3 @@
-alert("hello there Armando, how are you doing?");
+
+var userName = prompt("What is your first name?")
+console.log("Hello there, +userName");

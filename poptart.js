@@ -8,4 +8,3 @@ if(age === 21) {
 }
 if(age %  2 !==0) {
   console.log("your age is odd!");
-}

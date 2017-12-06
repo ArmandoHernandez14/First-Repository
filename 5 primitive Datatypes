@@ -64,12 +64,13 @@ and that's how you do it.
 
 //2.
 ("blah" + "blah") [6]
-answer: H, It's H because the [6] is telling you
-what's the sixth variable.
+answer: a, It's A because well their added so what you want
+to do is add them together "blahblah" and you start at b
+but you count from zero to 6 which your gonna get A.
 
 //3.
 "hello" .length % "hi\\" .length
-answer: 9 for the first one and 8 for the
-second one and if added together it's 17 background-position
-the way I got those numbers where because
-.length is saying how much variables are there.
+Hello length's is 5 % 3 , you get 3 in hi\\ because
+the other \ cancels out the one next to it so you get 3, Now we
+check how much times 3 goes into 5 which you just
+say subtract and you get 2 and that's your answer.

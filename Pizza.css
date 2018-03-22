@@ -1,0 +1,34 @@
+h1{
+  font-family: Roboto;
+  /*Content - Width and Height*/
+width: 15%;
+height: auto;
+  /*Border*/
+/* border: 2px solid blue; */
+  /*Padding*/
+padding-left: 50px;
+  /*Margin*/
+margin: 0 auto;
+}
+table{
+  padding-top:20px;
+  margin: 0 auto;
+}
+td{
+  height: 100px;
+  width: 100px;
+}
+#Armando{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#Bottom{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#Alan{
+  border: 1px solid black;
+}
+#Top{
+  border-top: 1px solid black;
+}

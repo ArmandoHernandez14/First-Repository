@@ -1,0 +1,10 @@
+body{
+padding: inherit;
+ margin:auto;
+  border:15px solid #bdc3c7;
+  width: 75%;
+}
+
+h5{
+  color: #3498db;
+}

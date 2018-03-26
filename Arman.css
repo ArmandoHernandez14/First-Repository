@@ -1,14 +1,13 @@
 body{
   margin-top: 20px;
 /* padding: inherit; */
-  margin-left: 225px;
-  margin-right: 200px;
+  margin:20px auto;
   border:20px solid #bdc3c7;
   width: 65%;
+  font-family: Source Sans Pro;
 }
 
 #XBOX{
-  font-family: Source Sans Pro;
   padding-left: 2%;
   letter-spacing: 2px;
   color: #3498db;
@@ -25,19 +24,16 @@ hr{
   color: #bdc3c7;
 }
 h2{
-  font-family: Source Sans Pro;
   color: #2c3e50;
   padding-left: 2%;
 }
 #Metadata{
   padding-right: 2%;
   margin-left: 2%;
-  font-family: Source Sans Pro;
   padding-left: 4px;
   border-left: 4px solid #bdc3c7;
 }
 p{
   padding-right: 2%;
   padding-left: 2%;
-  font-family: Source Sans Pro;
 }

@@ -1,5 +1,4 @@
 var answer = prompt("Are we there yet?");
-var rightAnswer=0;
 while(answer.indexOf("yes") === -1){
   var answer = prompt("Are we there yet?");
 }

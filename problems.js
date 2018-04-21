@@ -10,17 +10,17 @@ function isEven(x){
 function factorial(input){
   var result = input;
   if(result === 0){
-    console.log(1);
+    return 1;
   }
   else{
     for(var i = 1; i< input; i++){
       result = i * result;
     }
-    console.log(result;)
+    return result;
   }
 }
 
 function kebabToSnake(bob){
-  var armando = bob.replace("-", "_");
-  console.log(armando);
+ var newStr = bob.replace(/-/g, "_");
+  return newStr;
 }

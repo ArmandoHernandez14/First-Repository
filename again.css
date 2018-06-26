@@ -4,9 +4,12 @@ h1{
 li{
   color: blue;
 }
-h1{
-  color:Blue;
-}
 h4{
   color:yellow;
+}
+#x{
+  color:green;
+}
+.Bold{
+  color:pink;
 }

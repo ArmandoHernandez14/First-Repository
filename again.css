@@ -1,5 +1,11 @@
+body{
+  background: url("https://c1.staticflickr.com/5/4654/25254688767_83c0563d06_b.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 h1{
   color:purple;
+  border: solid 5px black;
 }
 li{
   color: blue;
@@ -8,7 +14,8 @@ h4{
   color:yellow;
 }
 #x{
-  color:green;
+  color:black;
+  text-decoration:line-through;
 }
 .Bold{
   color:pink;

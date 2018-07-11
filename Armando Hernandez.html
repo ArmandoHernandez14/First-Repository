@@ -2,6 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <style type="text/css">
+    /* Star */
+    *{/* Selects all the content in a website  */
+      color: green;
+    }
+    /* We're selecting every ancher tag, with
+    that's inside an li */
+    li a{/*Descendant Selector */
+      color:black;
+    }
+    /* Adjacent Selector */
+    h1 + p{/* We're making every p that's adjacent to
+    an h1, have it's color changed to gray */
+      color:gray;
+    }
+    /*Attribute Selector*/
+    ul li a[href="http://www.google.com"]{
+      /* I'm changing all the ancher tags that have the url to Google,
+      and are in a li*/
+      border: 3px solid black;
+    }
+    /*nth of type*/
+    ul li:nth-of-type(3){
+      background:purple;
+    }/* I'm selecting the third li */
+    </style>
     <title>German Shepards</title>
     <h1>The German Shepard</h1>
      <p>Hi i'm a German Shepard</p>
@@ -10,7 +36,7 @@
  <img src=https://s-media-cache-ak0.pinimg.com/736x/8e/f2/4a/8ef24a93501d7624721a095aea8f5b80.jpg>
   <h3>Hello my favorite thing's to eat are:</h3>
   <ul>
-  <li>Ragi and rice</li>
+  <li><a href="http://www.google.com">Ragi and rice</a></li>
   <li>Porridge</li>
   <li>Fish</li>
   <li>Milk</li>
